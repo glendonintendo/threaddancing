@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.big-label {
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.small-label {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.slider {
+    height: 500px;
+    background-color: purple;
+}
+
+.about {
+    height: 400px;
+    background-color: blue;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.dup-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.dup-nav-card {
+    height: 400px;
+    width: 30%;
+    background-color: green;
+}
+
+.nav-card-image {
+    height: 80%;
+    border: 4px solid black;
+}
+
+.intro {
+    width: 80%;
+    height: 250px;
+    background-color: purple;
+    margin: 0 auto;
+}
+
+.service {
+    width: 80%;
+    height: 350px;
+    background-color: lightblue;
+    margin: 40px auto;
+    display: flex;
+}
+
+.service-picture {
+    width: 35%;
+    height: 100%;
+    border: 4px black solid;
+}
+
+.service-explainer {
+    width: 65%;
+    height: 100%;
+}
+
+.faq {
+    width: 80%;
+    height: 500px;
+    background-color: purple;
+    margin: 0 auto;
+}
+
+.faq-header {
+    height: 100px;
+    width: 100%;
+}
+
+.q {
+    height: 100px;
+    width: 100%;
+    border: 4px solid black;
+}
+
+.pricing {
+    width: 80%;
+    height: 400px;
+    background-color: green;
+    margin: 40px auto;
+}
+
+.order-form {
+    width: 80%;
+    height: 400px;
+    background-color: lightcoral;
+    margin: 40px auto;
+}
+
+.nav-anchor {
+    position: relative;
+    top: -80px;
+}
